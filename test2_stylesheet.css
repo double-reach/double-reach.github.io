@@ -1,0 +1,233 @@
+/*ページ全体の共通設定*/
+*{
+    box-sizing: border-box;
+   
+}
+
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+/*---------------------ヘッダー-----------------------------*/
+header{
+    height: 65px;
+    background-color: rgba(34, 49, 52, 0.9);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.header-left{
+    float: left;
+}
+
+.header-logo{
+    width: 124px;
+    margin-top: 20px;
+}
+
+.header-right{
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.login{
+    line-height: 65px;
+    padding: 0 25px;
+    text-decoration: none;
+    color: white;    
+    display: block;
+}
+
+.login:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+/*-------------------------メイン------------------------*/
+h1{
+    font-size: 45px;
+    letter-spacing: 5px;
+    color: white;
+    opacity: 0.7;
+    margin: 0;
+    padding: 0;
+}
+
+/*---------------------メイン１（上）---------------------*/
+.top-wrapper{
+    background-image: url(https://prog-8.com/images/html/advanced/top.png);
+    background-size: cover;
+    text-align: center;
+
+}
+
+.top-container{
+    width: 1170px;
+    padding-top: 180px;
+    padding-bottom: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.top-wrapper p{
+    color: white;
+    opacity: 0.7;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-wrapper{
+    margin-top: 30px;
+}
+
+.btn-wrapper span{
+    margin-right: 5px;
+}
+
+.btn-wrapper p{
+    margin: 15px 0;
+}
+
+.btn-wrapper .btn {
+    border-radius: 4px;
+    opacity: 0.8;
+    padding: 8px 24px;
+    color: white;
+}
+
+.btn-wrapper .btn:hover{
+    opacity: 1;
+}
+
+.btn-wrapper a{
+    text-decoration: none;
+}
+
+.signup{
+    background-color: #239b76;
+}
+
+.btn-wrapper p{
+    margin-top: 15px 0;
+}
+
+.facebook{
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.twitter{
+    background-color: #55acee;
+}
+
+/*---------------------メイン２（レッスン）----------------------*/
+.lesson-wrapper{
+    height: 580px;
+    text-align: center;
+    background-color: #f7f7f7;
+    width: 100%;
+}
+
+.lesson-container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+h2{
+    font-weight: normal;
+    padding-top: 80px;
+    color: #5f5d60;
+}
+
+.lesson-list{
+    margin-top: 50px;
+    width: 25%;
+    float: left;
+}
+
+.lesson-icon{
+    position: relative;
+}
+
+.lesson-icon p{
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+}
+
+.text-content{
+    color: #b3aeb5;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 15px;
+    font-size: 13px;
+}
+
+/*-------------------------メイン3（メッセージ）--------------------------*/
+
+.message-wrapper{
+    text-align: center;
+    width: 1170px;
+    margin: 0 auto;
+}
+
+h3{
+    color: #5f5d60;
+}
+
+.message{
+    margin-top: 50px;
+    margin-bottom: 80px;
+    display: inline-block;
+    color: white;
+    background-color: #5dca88;
+    opacity: 0.8;
+    padding: 15px 40px;
+    border-radius: 4px;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:hover{
+    opacity: 1;
+    cursor: pointer;
+}
+
+.message:active{
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+}
+
+/*フッター*/
+footer{
+    border-top: 1px solid #eee;
+}
+
+.footer-container{
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+
+.footer-right{
+    margin: 30px 0;
+    color: #b3aeb5;
+    font-size: 13px;
+}
+
+.footer-logo{
+    width: 124px;
+}
